@@ -1,6 +1,6 @@
 name: seshat
 description: Seshat ORM for pure Dart servers with a query builder, typed models, relationships, and migrations.
-version: 0.1.0
+version: 0.1.1
 repository: https://github.com/gaitco/seshat
 environment:
   sdk: ^3.12.0
