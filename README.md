@@ -24,7 +24,7 @@ final users = await User.query()
 
 ```yaml
 dependencies:
-  seshat: ^0.1.0
+  seshat: ^0.1.1
 ```
 
 ```dart

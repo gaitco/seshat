@@ -1,3 +1,7 @@
+## 0.1.1
+
+- Add the canonical runnable example entrypoint used by pub.dev.
+
 ## 0.1.0
 
 Initial release.
