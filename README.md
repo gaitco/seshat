@@ -1,6 +1,6 @@
-# Seshat Core
+# Seshat ORM
 
-<p align="center"><img src="assets/icon.svg" width="96" alt="Seshat Core icon"></p>
+<p align="center"><img src="assets/icon.svg" width="96" alt="Seshat icon"></p>
 
 Seshat is an ORM for pure Dart servers with a parameterized query
 builder, typed immutable models, relationships with eager loading, scopes,
@@ -24,12 +24,12 @@ final users = await User.query()
 
 ```yaml
 dependencies:
-  maat_seshat_core: ^0.1.0
+  seshat: ^0.1.0
 ```
 
 ```dart
-import 'package:maat_seshat_core/maat_seshat_core.dart';
-import 'package:maat_seshat_core/sqlite.dart';     // or postgres.dart
+import 'package:seshat/seshat.dart';
+import 'package:seshat/sqlite.dart';     // or postgres.dart
 
 final db = SqliteConnection.open('storage/app.sqlite');
 // final db = await PostgresConnection.open(host: 'localhost', database: 'app', username: 'app', password: '...');

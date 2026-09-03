@@ -1,7 +1,7 @@
 /// Seshat ORM for pure Dart servers.
 ///
-/// Import `package:maat_seshat_core/sqlite.dart` or
-/// `package:maat_seshat_core/postgres.dart` for a connection.
+/// Import `package:seshat/sqlite.dart` or
+/// `package:seshat/postgres.dart` for a connection.
 library;
 
 export 'src/database/connection.dart';

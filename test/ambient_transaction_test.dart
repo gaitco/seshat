@@ -1,5 +1,5 @@
-import 'package:maat_seshat_core/maat_seshat_core.dart';
-import 'package:maat_seshat_core/sqlite.dart';
+import 'package:seshat/seshat.dart';
+import 'package:seshat/sqlite.dart';
 import 'package:test/test.dart';
 
 /// A [Connection] test double that mimics a pooled backend (e.g. Postgres):

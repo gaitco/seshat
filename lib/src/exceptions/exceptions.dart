@@ -1,4 +1,4 @@
-/// Base class for every error maat_seshat_core raises.
+/// Base class for every error seshat raises.
 class DatabaseException implements Exception {
   DatabaseException(this.message, {this.sql, this.bindings, this.cause});
 

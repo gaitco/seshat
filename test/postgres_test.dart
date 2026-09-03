@@ -5,8 +5,8 @@ library;
 
 import 'dart:io';
 
-import 'package:maat_seshat_core/maat_seshat_core.dart';
-import 'package:maat_seshat_core/postgres.dart';
+import 'package:seshat/seshat.dart';
+import 'package:seshat/postgres.dart';
 import 'package:test/test.dart';
 
 import 'support/models.dart';

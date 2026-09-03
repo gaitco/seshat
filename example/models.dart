@@ -1,5 +1,5 @@
 // Example models shared by the example scripts.
-import 'package:maat_seshat_core/maat_seshat_core.dart';
+import 'package:seshat/seshat.dart';
 
 enum Role { admin, member }
 

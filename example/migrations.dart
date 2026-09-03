@@ -1,6 +1,6 @@
 // Example migrations. Register them in order; the migrator records what
 // ran in a `migrations` table.
-import 'package:maat_seshat_core/maat_seshat_core.dart';
+import 'package:seshat/seshat.dart';
 
 class CreateUsersTable extends Migration {
   @override

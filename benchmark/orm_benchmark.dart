@@ -1,7 +1,7 @@
 // Rough throughput numbers for the hot paths against in-memory SQLite.
 // Run: dart run benchmark/orm_benchmark.dart
-import 'package:maat_seshat_core/maat_seshat_core.dart';
-import 'package:maat_seshat_core/sqlite.dart';
+import 'package:seshat/seshat.dart';
+import 'package:seshat/sqlite.dart';
 
 class Item extends Model<Item> {
   Item({this.id, required this.name, required this.price, this.active = true});
