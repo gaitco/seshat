@@ -1,5 +1,5 @@
-import 'package:maat_seshat_core/maat_seshat_core.dart';
-import 'package:maat_seshat_core/sqlite.dart';
+import 'package:seshat/seshat.dart';
+import 'package:seshat/sqlite.dart';
 
 enum Role { admin, member }
 

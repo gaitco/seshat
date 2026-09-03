@@ -1,4 +1,4 @@
-import 'package:maat_seshat_core/maat_seshat_core.dart';
+import 'package:seshat/seshat.dart';
 
 /// A query [Grammar] that quotes identifiers with backticks, the way MySQL
 /// does — used to prove the migrator routes its SQL through the

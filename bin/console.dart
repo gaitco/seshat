@@ -5,8 +5,8 @@
 // Uses DATABASE_PATH (SQLite file, default example.sqlite).
 import 'dart:io';
 
-import 'package:maat_seshat_core/maat_seshat_core.dart';
-import 'package:maat_seshat_core/sqlite.dart';
+import 'package:seshat/seshat.dart';
+import 'package:seshat/sqlite.dart';
 
 import '../example/migrations.dart';
 

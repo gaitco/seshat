@@ -35,7 +35,7 @@ class DB {
   /// Forget the default connection (tests).
   static void reset() => _default = null;
 
-  static const _zoneKey = 'maat_seshat_core.transaction';
+  static const _zoneKey = 'seshat.transaction';
 
   /// The connection pinned by an enclosing [transaction], or null.
   static Connection? get currentTransaction =>
